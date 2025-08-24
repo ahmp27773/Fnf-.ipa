@@ -1,0 +1,28 @@
+import Foundation
+
+// Print a welcome message
+print("Hello, Ahmere! Welcome to Swift in Xcode.")
+
+// Simple calculation
+let a = 10
+let b = 5
+let sum = a + b
+let product = a * b
+
+print("The sum of \(a) and \(b) is \(sum).")
+print("The product of \(a) and \(b) is \(product).")
+
+// Working with arrays
+let fruits = ["Apple", "Banana", "Cherry"]
+print("My favorite fruits are:")
+for fruit in fruits {
+    print("- \(fruit)")
+}
+
+// Function example
+func greet(name: String) -> String {
+    return "Hello, \(name)! Hope you're having a great day."
+}
+
+let greeting = greet(name: "Ahmere")
+print(greeting)
